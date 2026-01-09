@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<user id="12345" name="testuser" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
+  <firstname value="Test"/>
+  <lastname value="User"/>
+  <avatarlink value="https://example.com/avatar.jpg"/>
+  <yearregistered value="2015"/>
+  <lastlogin value="2026-01-09"/>
+  <stateorprovince value="California"/>
+  <country value="United States"/>
+  <webaddress value="https://example.com"/>
+  <xboxaccount value=""/>
+  <wiiaccount value=""/>
+  <psnaccount value=""/>
+  <steamaccount value=""/>
+  <battlenetaccount value=""/>
+  <tradeaddr>
+    <city>San Francisco</city>
+    <country>United States</country>
+  </tradeaddr>
+  <buddies total="25" page="1">
+    <buddy id="12346" name="buddy1"/>
+    <buddy id="12347" name="buddy2"/>
+    <buddy id="12348" name="buddy3"/>
+  </buddies>
+  <guilds total="5" page="1">
+    <guild id="1001" name="Board Game Enthusiasts"/>
+    <guild id="1002" name="Strategy Gamers"/>
+  </guilds>
+  <hot total="10">
+    <item rank="1" name="Brass: Birmingham" id="224517"/>
+    <item rank="2" name="Ark Nova" id="342942"/>
+    <item rank="3" name="Gloomhaven" id="174430"/>
+    <item rank="4" name="Dune: Imperium" id="316554"/>
+    <item rank="5" name="Terraforming Mars" id="167791"/>
+  </hot>
+  <top total="10">
+    <item rank="1" name="Brass: Birmingham" id="224517"/>
+    <item rank="2" name="Pandemic Legacy: Season 1" id="161936"/>
+    <item rank="3" name="Gloomhaven" id="174430"/>
+    <item rank="4" name="Twilight Struggle" id="12333"/>
+    <item rank="5" name="Through the Ages" id="182028"/>
+  </top>
+</user>

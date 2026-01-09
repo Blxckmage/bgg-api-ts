@@ -1,7 +1,5 @@
 import { XMLParser } from "fast-xml-parser";
 import type { X2jOptions, validationOptions } from "fast-xml-parser";
-import { readFileSync } from "fs";
-import type { BggThing } from "./src/types/BggThing";
 
 const xmlParserOptions: Partial<X2jOptions & validationOptions> = {
   ignoreAttributes: false,
@@ -15,13 +13,3 @@ export const parseXml = (xmlData: string) => {
 
   return parser.parse(xmlData);
 };
-
-let xmlData = readFileSync("tests/fixtures/thing-xml.xml", "utf-8");
-
-const main = () => {
-  const parsedData = parseXml(xmlData);
-  const thing: BggThing = parsedData["items"]["item"][0];
-  console.log(JSON.stringify(thing, null, 2));
-};
-
-main();

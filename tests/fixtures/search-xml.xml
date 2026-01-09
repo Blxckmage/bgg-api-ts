@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
+  <item type="boardgame" id="224517">
+    <name type="primary" value="Brass: Birmingham"/>
+    <name type="alternate" value="Brass Birmingham"/>
+    <yearpublished value="2018"/>
+  </item>
+  <item type="boardgame" id="224518">
+    <name type="primary" value="Brass: Lancashire"/>
+    <yearpublished value="2007"/>
+  </item>
+  <item type="boardgameexpansion" id="224519">
+    <name type="primary" value="Brass: Birmingham - Birmingham: Industrial Revolution"/>
+    <yearpublished value="2018"/>
+  </item>
+  <item type="boardgame" id="161936">
+    <name type="primary" value="Pandemic Legacy: Season 1"/>
+    <yearpublished value="2015"/>
+  </item>
+  <item type="boardgameexpansion" id="161937">
+    <name type="primary" value="Pandemic Legacy: Season 1 - Virulent Strain"/>
+    <yearpublished value="2016"/>
+  </item>
+</items>

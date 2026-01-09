@@ -1,5 +1,6 @@
 {
   "name": "bgg-api-ts",
+  "description": "A TypeScript wrapper for the BoardGameGeek API",
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
@@ -7,5 +8,8 @@
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.3.3"
   }
 }

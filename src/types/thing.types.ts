@@ -1,4 +1,4 @@
-import type { OneOrNothing, ThingType } from "./Types";
+import type { OneOrNothing, ThingType } from "./common.types";
 
 export interface BggThing {
   items: {
